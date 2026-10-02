@@ -23,7 +23,7 @@
       exercises:
         - name: Chest press machine
           id: chest-press
-          image: /assets/images/guides/chest-press.svg
+          image: /assets/images/cc/chest-press.jpg
           machine: Selectorized chest press
           cue: "Feet planted, shoulder blades gently supported, wrists straight. Do not shrug or push your head forward."
           alternative: Incline push-up on a bench
@@ -31,7 +31,7 @@
           attention: "Do not let the shoulders roll forward or the head push into the pad. Use a light load and keep both arms moving evenly."
         - name: Seated cable row
           id: cable-row
-          image: /assets/images/guides/cable-row.svg
+          image: /assets/images/cc/cable-row.jpg
           machine: Cable row or supported row machine
           cue: "Pull elbows toward the ribs and pause briefly; keep the neck long without forcing it."
           alternative: Chest-supported dumbbell row
@@ -47,7 +47,7 @@
           attention: "This is a small movement. Do not force range, flare the elbow, shrug, or turn the neck to help."
         - name: Leg press
           id: leg-press
-          image: /assets/images/guides/leg-press.svg
+          image: /assets/images/cc/leg-press.jpg
           machine: 45-degree or horizontal leg press
           cue: "Short comfortable range, knees track over toes, no locking out. This keeps the session balanced without making it a leg day."
           alternative: Sit-to-stand from a bench
@@ -98,7 +98,7 @@
       exercises:
         - name: Seated leg curl
           id: leg-curl
-          image: /assets/images/guides/leg-curl.svg
+          image: /assets/images/cc/leg-curl.JPG
           machine: Leg-curl machine
           cue: "Hips stay down, move smoothly, and avoid jerking the stack."
           alternative: Stability-ball hamstring curl or heel slides
@@ -106,7 +106,7 @@
           attention: "Keep the hips pressed down and do not snap the knees straight. Reduce the load if the stack bangs."
         - name: Supported split squat
           id: supported-split-squat
-          image: /assets/images/guides/supported-split-squat.svg
+          image: /assets/images/cc/split-squat.png
           machine: Rack, rail, or bench for balance
           cue: "Small range at first; hold support and keep the torso tall without arching the neck."
           alternative: Sit-to-stand from a bench
@@ -114,7 +114,7 @@
           attention: "Use the support. Do not chase depth, let the front knee collapse inward, or arch the neck while looking up."
         - name: Lat pulldown
           id: lat-pulldown
-          image: /assets/images/guides/lat-pulldown.svg
+          image: /assets/images/cc/lat-pulldown.jpg
           machine: Pulldown machine, neutral or comfortable grip
           cue: "Pull toward the upper chest, keep shoulders away from ears, and never pull behind the neck."
           alternative: Band pulldown
@@ -134,7 +134,7 @@
       exercises:
         - name: Side plank from knees
           id: side-plank
-          image: /assets/images/guides/side-plank.svg
+          image: /assets/images/cc/side-plank.png
           machine: Mat
           cue: "Keep the body in one long line from knees through the head and breathe steadily."
           alternative: Side-lying knee lift with the top hand supported
@@ -142,7 +142,7 @@
           attention: "Do not let the shoulder collapse or the neck bend sideways. Use a shorter hold rather than losing alignment."
         - name: Bird-dog
           id: bird-dog
-          image: /assets/images/guides/bird-dog.svg
+          image: /assets/images/cc/bird-dog.jpg
           machine: Mat
           cue: "Reach long while keeping the pelvis steady and the gaze toward the floor."
           alternative: One arm or one leg at a time
