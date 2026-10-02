@@ -1,0 +1,66 @@
+- id: set-a
+  label: Set A
+  title: Upper body + core
+  tone: cobalt
+  target: "Build a stable upper-body base while keeping the neck relaxed and the effort controlled."
+  time: 45 minutes
+  blocks:
+    - name: Arrive
+      minutes: 8
+      detail: "Elliptical, bike, or treadmill walk. Easy pace for 5 minutes, then 3 minutes slightly warmer. You should still speak in short sentences."
+    - name: Strength circuit
+      minutes: 25
+      detail: "Complete 2 sets of 8–12 clean repetitions for each movement. Rest 60–90 seconds. Start very light and stop with 3–4 good repetitions still available (RPE 5–6/10)."
+      exercises:
+        - name: Chest press machine
+          machine: Selectorized chest press
+          cue: "Feet planted, shoulder blades gently supported, wrists straight. Do not shrug or push your head forward."
+          alternative: Incline push-up on a bench
+        - name: Seated cable row
+          machine: Cable row or supported row machine
+          cue: "Pull elbows toward the ribs and pause briefly; keep the neck long without forcing it."
+          alternative: Chest-supported dumbbell row
+        - name: Shoulder external rotation
+          machine: Light cable or resistance band
+          cue: "Elbow stays near the side; use a tiny, controlled range. No neck movement."
+          alternative: Very light side-lying external rotation
+        - name: Leg press
+          machine: 45-degree or horizontal leg press
+          cue: "Short comfortable range, knees track over toes, no locking out. This keeps the session balanced without making it a leg day."
+          alternative: Sit-to-stand from a bench
+    - name: Core + exit
+      minutes: 12
+      detail: "2 rounds: dead bug 6–8 per side, Pallof press 8–10 per side, then 3–4 minutes easy cardio. Keep the head supported or neutral; no crunching or neck pulling."
+- id: set-b
+  label: Set B
+  title: Lower body + posture
+  tone: mint
+  target: "Strengthen legs, hips, upper back, and anti-rotation core so the body can tolerate regular training."
+  time: 45 minutes
+  blocks:
+    - name: Arrive
+      minutes: 8
+      detail: "Choose the cardio machine not used last time. Easy pace for 5 minutes, then 3 minutes at a moderate but conversational pace."
+    - name: Strength circuit
+      minutes: 25
+      detail: "Complete 2 sets of 8–12 clean repetitions for each movement. Rest 60–90 seconds. Use a load that feels like RPE 5–6/10; the last repetition must look like the first."
+      exercises:
+        - name: Seated leg curl
+          machine: Leg-curl machine
+          cue: "Hips stay down, move smoothly, and avoid jerking the stack."
+          alternative: Stability-ball hamstring curl or heel slides
+        - name: Supported split squat
+          machine: Rack, rail, or bench for balance
+          cue: "Small range at first; hold support and keep the torso tall without arching the neck."
+          alternative: Sit-to-stand from a bench
+        - name: Lat pulldown
+          machine: Pulldown machine, neutral or comfortable grip
+          cue: "Pull toward the upper chest, keep shoulders away from ears, and never pull behind the neck."
+          alternative: Band pulldown
+        - name: Cable hip hinge
+          machine: Low cable or light dumbbell
+          cue: "Hips travel back, spine stays neutral, and the load stays close. Stop before the neck or back compensates."
+          alternative: Bodyweight hip hinge to a wall
+    - name: Core + exit
+      minutes: 12
+      detail: "2 rounds: side plank from knees 15–25 seconds per side, bird-dog 6 per side, then 3–4 minutes easy cardio. Keep the gaze down and the neck neutral."
