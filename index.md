@@ -19,7 +19,7 @@ title: Exercises
   <div class="workout-head"><div><p class="eyebrow">{{ workout.label }} · {{ workout.time }}</p><h2>{{ workout.title }}</h2></div></div>
   {% for block in workout.blocks %}
   <div class="block"><div class="block-label"><strong>{{ block.name }}</strong><span>{{ block.minutes }} min</span></div><p>{{ block.detail }}</p>
-    {% if block.exercises %}<div class="exercise-grid">{% for exercise in block.exercises %}<article class="exercise"><h3>{{ exercise.name }}</h3><p class="machine">{{ exercise.machine }}</p><p>{{ exercise.cue }}</p><p class="alternative"><b>Alternative:</b> {{ exercise.alternative }}</p></article>{% endfor %}</div>{% endif %}
+    {% if block.exercises %}<div class="exercise-grid">{% for exercise in block.exercises %}<article class="exercise"><h3>{{ exercise.name }}</h3><p class="machine">{{ exercise.machine }}</p><p>{{ exercise.cue }}</p><p class="alternative"><b>Alternative:</b> {{ exercise.alternative }}</p><button class="exercise-open" type="button" data-modal="modal-{{ exercise.id }}">Open movement guide <span>↗</span></button></article><dialog class="exercise-modal" id="modal-{{ exercise.id }}"><div class="modal-head"><div><p class="eyebrow">MOVEMENT GUIDE</p><h2>{{ exercise.name }}</h2><p class="machine">{{ exercise.machine }}</p></div><button class="modal-close" type="button" data-close aria-label="Close movement guide">×</button></div><div class="modal-content"><img src="{{ exercise.image | relative_url }}" alt="Illustration of {{ exercise.name }}"><div class="modal-copy"><h3>How to do it</h3><p>{{ exercise.steps }}</p><div class="attention"><strong>PAY ATTENTION</strong><p>{{ exercise.attention }}</p></div></div></div></dialog>{% endfor %}</div>{% endif %}
   </div>
   {% endfor %}
 </section>

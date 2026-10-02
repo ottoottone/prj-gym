@@ -8,29 +8,71 @@
     - name: Arrive
       minutes: 8
       detail: "Elliptical, bike, or treadmill walk. Easy pace for 5 minutes, then 3 minutes slightly warmer. You should still speak in short sentences."
+      exercises:
+        - name: Cardio warm-up
+          id: cardio-warmup
+          image: /assets/images/guides/cardio-warmup.svg
+          machine: Elliptical, bike, or treadmill walk
+          cue: "Build gradually toward the easy-to-moderate heart-rate reference."
+          alternative: Any machine that allows a conversational pace
+          steps: "Start easy for 5 minutes, then gently increase the pace for 3 minutes. Keep your breathing controlled and use the talk test."
+          attention: "Do not chase a number if you feel dizzy, unusually breathless, or unwell. Slow down and stop if symptoms do not settle."
     - name: Strength circuit
       minutes: 25
       detail: "Complete 2 sets of 8–12 clean repetitions for each movement. Rest 60–90 seconds. Start very light and stop with 3–4 good repetitions still available (RPE 5–6/10)."
       exercises:
         - name: Chest press machine
+          id: chest-press
+          image: /assets/images/guides/chest-press.svg
           machine: Selectorized chest press
           cue: "Feet planted, shoulder blades gently supported, wrists straight. Do not shrug or push your head forward."
           alternative: Incline push-up on a bench
+          steps: "Adjust the seat so the handles start around mid-chest. Brace your feet, take a breath, press the handles forward without locking the elbows, then return slowly until the handles are just behind the starting line."
+          attention: "Do not let the shoulders roll forward or the head push into the pad. Use a light load and keep both arms moving evenly."
         - name: Seated cable row
+          id: cable-row
+          image: /assets/images/guides/cable-row.svg
           machine: Cable row or supported row machine
           cue: "Pull elbows toward the ribs and pause briefly; keep the neck long without forcing it."
           alternative: Chest-supported dumbbell row
+          steps: "Sit tall with knees soft, hold the handle, reach forward without rounding, then pull the handle toward the lower ribs. Pause, then extend the arms under control."
+          attention: "Do not jerk the weight or lean backward to finish the pull. Keep the shoulders away from the ears."
         - name: Shoulder external rotation
+          id: shoulder-rotation
+          image: /assets/images/guides/shoulder-rotation.svg
           machine: Light cable or resistance band
           cue: "Elbow stays near the side; use a tiny, controlled range. No neck movement."
           alternative: Very light side-lying external rotation
+          steps: "Stand side-on to the cable or hold a band, keep the elbow bent at 90 degrees and gently pinned to the ribs, then rotate the forearm outward a small amount and return slowly."
+          attention: "This is a small movement. Do not force range, flare the elbow, shrug, or turn the neck to help."
         - name: Leg press
+          id: leg-press
+          image: /assets/images/guides/leg-press.svg
           machine: 45-degree or horizontal leg press
           cue: "Short comfortable range, knees track over toes, no locking out. This keeps the session balanced without making it a leg day."
           alternative: Sit-to-stand from a bench
+          steps: "Set the seat so the knees are comfortably bent. Place feet hip-width apart, lower the platform with control, then push through the whole foot to return without locking the knees."
+          attention: "Never allow the lower back or pelvis to round off the pad. Stop before the deepest point that feels comfortable."
     - name: Core + exit
       minutes: 12
       detail: "2 rounds: dead bug 6–8 per side, Pallof press 8–10 per side, then 3–4 minutes easy cardio. Keep the head supported or neutral; no crunching or neck pulling."
+      exercises:
+        - name: Dead bug
+          id: dead-bug
+          image: /assets/images/guides/dead-bug.svg
+          machine: Mat
+          cue: "Keep the ribs quiet and move slowly while the lower back stays comfortable."
+          alternative: Heel taps with arms resting by the sides
+          steps: "Lie on your back with knees and hips bent. Brace gently, lower the opposite arm and leg a short distance, return, and alternate sides."
+          attention: "Do not flatten the neck or hold your breath. Make the range smaller if the back arches or the ribs flare."
+        - name: Pallof press
+          id: pallof-press
+          image: /assets/images/guides/pallof-press.svg
+          machine: Cable machine or resistance band
+          cue: "Stand tall and resist the pull without rotating your ribs or hips."
+          alternative: Isometric band hold close to the chest
+          steps: "Stand side-on to the cable, hold the handle at the chest, press it straight out, pause, and bring it back without turning."
+          attention: "Use a light resistance. Do not twist, lean, shrug, or let the cable pull your shoulders forward."
 - id: set-b
   label: Set B
   title: Lower body + posture
@@ -41,26 +83,68 @@
     - name: Arrive
       minutes: 8
       detail: "Choose the cardio machine not used last time. Easy pace for 5 minutes, then 3 minutes at a moderate but conversational pace."
+      exercises:
+        - name: Cardio warm-up
+          id: cardio-warmup-b
+          image: /assets/images/guides/cardio-warmup.svg
+          machine: Elliptical, bike, or treadmill walk
+          cue: "Choose the machine not used last time and build gradually."
+          alternative: Any machine that allows a conversational pace
+          steps: "Start easy for 5 minutes, then gently increase the pace for 3 minutes. Keep breathing controlled and stay within the talk-test effort."
+          attention: "Do not force the moderate range. Slow down or stop for dizziness, unusual breathlessness, chest discomfort, or worsening symptoms."
     - name: Strength circuit
       minutes: 25
       detail: "Complete 2 sets of 8–12 clean repetitions for each movement. Rest 60–90 seconds. Use a load that feels like RPE 5–6/10; the last repetition must look like the first."
       exercises:
         - name: Seated leg curl
+          id: leg-curl
+          image: /assets/images/guides/leg-curl.svg
           machine: Leg-curl machine
           cue: "Hips stay down, move smoothly, and avoid jerking the stack."
           alternative: Stability-ball hamstring curl or heel slides
+          steps: "Align the machine pivot with the knee, place the pad just above the ankle, brace the hips, curl the pad toward the seat, pause briefly, and return slowly."
+          attention: "Keep the hips pressed down and do not snap the knees straight. Reduce the load if the stack bangs."
         - name: Supported split squat
+          id: supported-split-squat
+          image: /assets/images/guides/supported-split-squat.svg
           machine: Rack, rail, or bench for balance
           cue: "Small range at first; hold support and keep the torso tall without arching the neck."
           alternative: Sit-to-stand from a bench
+          steps: "Hold a rail, step one foot forward and one back, bend both knees a little, then press through the front foot to stand. Keep the stance narrow enough to feel stable."
+          attention: "Use the support. Do not chase depth, let the front knee collapse inward, or arch the neck while looking up."
         - name: Lat pulldown
+          id: lat-pulldown
+          image: /assets/images/guides/lat-pulldown.svg
           machine: Pulldown machine, neutral or comfortable grip
           cue: "Pull toward the upper chest, keep shoulders away from ears, and never pull behind the neck."
           alternative: Band pulldown
+          steps: "Set the thigh pad snugly, take a comfortable grip, sit tall, pull the bar toward the upper chest, pause, and let the arms rise under control."
+          attention: "Pull only to the front of the chest—never behind the neck. Do not swing or lean far backward."
         - name: Cable hip hinge
+          id: cable-hip-hinge
+          image: /assets/images/guides/cable-hip-hinge.svg
           machine: Low cable or light dumbbell
           cue: "Hips travel back, spine stays neutral, and the load stays close. Stop before the neck or back compensates."
           alternative: Bodyweight hip hinge to a wall
+          steps: "Stand facing away from the low cable, hold the handle close, soften the knees, send the hips backward, then squeeze the glutes to stand tall."
+          attention: "The movement comes from the hips, not the lower back. Keep the neck in line with the spine and stop early if you lose position."
     - name: Core + exit
       minutes: 12
       detail: "2 rounds: side plank from knees 15–25 seconds per side, bird-dog 6 per side, then 3–4 minutes easy cardio. Keep the gaze down and the neck neutral."
+      exercises:
+        - name: Side plank from knees
+          id: side-plank
+          image: /assets/images/guides/side-plank.svg
+          machine: Mat
+          cue: "Keep the body in one long line from knees through the head and breathe steadily."
+          alternative: Side-lying knee lift with the top hand supported
+          steps: "Lie on your side with knees bent, prop on the forearm, lift the hips a little, hold 15–25 seconds, then lower with control."
+          attention: "Do not let the shoulder collapse or the neck bend sideways. Use a shorter hold rather than losing alignment."
+        - name: Bird-dog
+          id: bird-dog
+          image: /assets/images/guides/bird-dog.svg
+          machine: Mat
+          cue: "Reach long while keeping the pelvis steady and the gaze toward the floor."
+          alternative: One arm or one leg at a time
+          steps: "Start on hands and knees, brace gently, slide one leg back and the opposite arm forward, pause, return, and switch sides."
+          attention: "Do not lift high or arch the back. Keep the neck in line with the spine and move only as far as you can control."
