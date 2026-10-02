@@ -6,7 +6,7 @@ title: Exercises
 <div class="exercise-only-head">
   <p class="eyebrow">TUESDAY / SATURDAY · 45 MINUTES</p>
   <h1>Exercises</h1>
-  <div class="cardio-reference"><strong>Cardio reference · age 43</strong><span>Estimated maximum: ~177 bpm · Aim for 88–106 bpm easy or 106–124 bpm moderate.</span><small>Use the talk test too: you should be able to speak in short sentences. Heart-rate formulas are estimates; follow medical advice or device warnings if they differ.</small></div>
+  <div class="cardio-reference"><strong>Cardio reference</strong><span>Estimated maximum: ~177 bpm · Aim for 88–106 bpm easy or 106–124 bpm moderate.</span><small>Use the talk test too: you should be able to speak in short sentences. Heart-rate formulas are estimates; follow medical advice or device warnings if they differ.</small></div>
 </div>
 
 {% for workout in site.data.workouts %}
